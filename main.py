@@ -17,7 +17,7 @@ def page_not_found(e):
 def index():
     return render_template("index.html")
 
-@app.route('/aboutme/')  # connects /stub/ URL to stub() function
+@app.route('/aboutme/')  # connects /aboutme/ URL to aboutme() function
 def aboutme():
     return render_template("aboutme.html")
 
